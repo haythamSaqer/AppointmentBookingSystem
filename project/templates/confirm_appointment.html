@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Appointment Confirmation</h1>
+  <p>Your appointment with Dr. {{ appointment.doctor.name }} on {{ appointment.date }} at {{ appointment.time }} has been confirmed.</p>
+{% endblock %}
